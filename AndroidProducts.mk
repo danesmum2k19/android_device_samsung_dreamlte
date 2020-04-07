@@ -15,3 +15,9 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_dreamlte.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_dreamlte-user \
+    lineage_dreamlte-userdebug \
+    lineage_dreamlte-eng
+
