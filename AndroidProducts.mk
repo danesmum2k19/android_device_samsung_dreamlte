@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dreamlte.mk
+    $(LOCAL_DIR)/havoc_dreamlte.mk
+    
+COMMON_LUNCH_CHOICES := \
+    havoc_dreamlte-user \
+    havoc_dreamlte-userdebug \
+    havoc_dreamlte-eng
